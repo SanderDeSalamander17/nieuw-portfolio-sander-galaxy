@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">Sander Tigelaar</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2 class="intro-text" id="intro-text">Hi, I'm</h2>
+                        <h1 class="main-name"><span id="dynamic-text">Sander Tigelaar</span></h1>
+                        <p class="subtitle">A Frontend Developer and a good designer</p>
+                        <div class="hero-description">
+                            I am someone who has a great interest in game design. To make a good design/game,
+                            I concentrate on recreating the right design in HTML, CSS, and JavaScript so the
+                            customer knows what I make. Currently, I am developing the skill to learn all code
+                            languages such as JavaScript, HTML, CSS, Python etc.
+                        </div>
+                        <a href="#projects" class="cta-button">View My Work</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="san.jpg" alt="Profile Photo" class="profile-image">
+                        <div class="social-links">
+                            <p class="find-text">Find me on</p>
+                            <div class="icons">
+                                <a href="https://github.com/yourusername" target="_blank" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      <!-- PROJECTS SECTION -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title rainbow-text">My Projects</h2>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- Project 1 -->
+                        <div class="swiper-slide">
+                            <div class="project-card">
+                                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop"
+                                    alt="Unity Game" class="project-image">
+                                <div class="project-content">
+                                    <h3>Unity Game Project</h3>
+                                    <p>Een interactieve 3D game ontwikkeld in Unity met C# scripting, physics en AI systemen.</p>
+                                    <div class="project-tags">
+                                        <span class="tag">Unity</span>
+                                        <span class="tag">C#</span>
+                                        <span class="tag">3D Graphics</span>
+                                    </div>
+                                </div>
+                                <div class="project-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Unity Game Project</h3>
+                                        <p>This immersive 3D game features advanced physics systems, intelligent AI behavior, and stunning visual effects. Built with Unity and C#, it showcases modern game development techniques including procedural generation and dynamic lighting.</p>
+                                        <a href="#" class="view-project-btn">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="swiper-slide">
+                            <div class="project-card">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=200&fit=crop"
+                                    alt="Web Dashboard" class="project-image">
+                                <div class="project-content">
+                                    <h3>Web Dashboard</h3>
+                                    <p>Dynamisch dashboard gebouwd met HTML, CSS en JavaScript.</p>
+                                    <div class="project-tags">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">JavaScript</span>
+                                        <span class="tag">PHP</span>
+                                    </div>
+                                </div>
+                                <div class="project-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Web Dashboard</h3>
+                                        <p>A comprehensive analytics dashboard featuring real-time data visualization, interactive charts, and responsive design. Built with modern web technologies to provide intuitive data insights and user management capabilities.</p>
+                                        <a href="#" class="view-project-btn">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="swiper-slide">
+                            <div class="project-card">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=200&fit=crop"
+                                    alt="UI/UX Design" class="project-image">
+                                <div class="project-content">
+                                    <h3>UI/UX Design Project</h3>
+                                    <p>Interface design van concept tot prototype, ontworpen in Figma met moderne principes.</p>
+                                    <div class="project-tags">
+                                        <span class="tag">Figma</span>
+                                        <span class="tag">UI Design</span>
+                                        <span class="tag">Prototyping</span>
+                                    </div>
+                                </div>
+                                <div class="project-overlay">
+                                    <div class="overlay-content">
+                                        <h3>UI/UX Design Project</h3>
+                                        <p>Complete user experience design from research to high-fidelity prototypes. This project demonstrates user-centered design principles, accessibility considerations, and modern interface patterns that enhance user engagement.</p>
+                                        <a href="#" class="view-project-btn">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="swiper-slide">
+                            <div class="project-card">
+                                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=200&fit=crop"
+                                    alt="Web Application" class="project-image">
+                                <div class="project-content">
+                                    <h3>Full-Stack Web App</h3>
+                                    <p>Complete web application with frontend and backend integration.</p>
+                                    <div class="project-tags">
+                                        <span class="tag">React</span>
+                                        <span class="tag">Node.js</span>
+                                        <span class="tag">MongoDB</span>
+                                    </div>
+                                </div>
+                                <div class="project-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Full-Stack Web Application</h3>
+                                        <p>A complete web application featuring user authentication, real-time updates, and database integration. Built with modern technologies and following best practices for security, performance, and scalability.</p>
+                                        <a href="#" class="view-project-btn">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation & Pagination -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools" class="tools">
+            <div class="container">
+                <h2 class="section-title rainbow-text">Tools & Technologies</h2>
+                <div class="tools-grid">
+                    <div class="tool-category">
+                        <h3>
+                            <div class="tool-icon"></div>Frontend Development
+                        </h3>
+                        <div class="tools-list">
+                            <span class="tool"><i class="fab fa-html5"></i>  HTML</span>
+                            <span class="tool"><i class="fab fa-css3-alt"></i>  CSS</span>
+                            <span class="tool"><i class="fab fa-js-square"></i>  JAVASCRIPT</span>
+                            <span class="tool"><i class="fab fa-angular"></i>  ANGULAR</span>
+                            <span class="tool"><i class="fab fa-vuejs"></i>  VUE</span>
+                            <span class="tool"><i class="fab fa-github"></i>  GITHUB</span>
+                        </div>
+                    </div>
+                    <div class="tool-category">
+                        <h3>
+                            <div class="tool-icon"></div>Backend Development
+                        </h3>
+                        <div class="tools-list">
+                            <span class="tool"><i class="fab fa-php"></i>  PHP</span>
+                            <span class="tool"><i class="fas fa-code"></i>  C#</span>
+                            <span class="tool"><i class="fas fa-database"></i>  SQL DATABASE</span>
+                        </div>
+                    </div>
+                    <div class="tool-category">
+                        <h3>
+                            <div class="tool-icon"></div>Game Development
+                        </h3>
+                        <div class="tools-list">
+                          <span class="tool"><i class="fas fa-cube"></i>  UNITY</span>
+                           
+                        </div>
+                    </div>
+                    <div class="tool-category">
+                        <h3>
+                            <div class="tool-icon"></div>Designing
+                        </h3>
+                        <div class="tools-list">
+                           <span class="tool"><i class="fab fa-figma"></i>  FIGMA</span>
+                           <span class="tool"><i class="fas fa-pencil-ruler"></i>  UI/UX DESIGN</span>
+                           <span class="tool"><i class="fas fa-palette"></i> PHOTOSHOP</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title rainbow-text">Let's Work Together</h2>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Jouw script.js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
